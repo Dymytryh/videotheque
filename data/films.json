@@ -1,0 +1,65 @@
+[
+    {
+        "titre": "Avatar",
+        "date_sortie": "2009-12-18",
+        "auteur": "James Cameron",
+        "3d": "1",
+        "prix": "9.5"
+    },
+    {
+        "titre": "I Am Legend",
+        "date_sortie": "2007-12-14",
+        "auteur": "Francis Lawrence",
+        "3d": "0",
+        "prix": "7.5"
+    },
+    {
+        "titre": "300",
+        "date_sortie": "2007-03-09",
+        "auteur": "Zack Snyder",
+        "3d": "0",
+        "prix": "7.5"
+    },
+    {
+        "titre": "The Avengers",
+        "date_sortie": "2012-05-04",
+        "auteur": "Joss Whedon",
+        "3d": "1",
+        "prix": "9.5"
+    },
+    {
+        "titre": "The Wolf of Wall Street",
+        "date_sortie": "2013-12-25",
+        "auteur": "Martin Scorsese",
+        "3d": "0",
+        "prix": "7.5"
+    },
+    {
+        "titre": "Interstellar",
+        "date_sortie": "2014-11-07",
+        "auteur": "Christopher Nolan",
+        "3d": "1",
+        "prix": "9.5"
+    },
+    {
+        "titre": "Doctor Strange",
+        "date_sortie": "2016-11-04",
+        "auteur": "Scott Derrickson",
+        "3d": "0",
+        "prix": "7.5"
+    },
+    {
+        "titre": "Rogue One: A Star Wars Story",
+        "date_sortie": "2016-12-16",
+        "auteur": "Gareth Edwards",
+        "3d": "0",
+        "prix": "7.5"
+    },
+    {
+        "titre": "Assassin's Creed",
+        "date_sortie": "2016-12-21",
+        "auteur": "Justin Kurzel",
+        "3d": "0",
+        "prix": "7.5"
+    }
+]
