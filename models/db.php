@@ -2,9 +2,9 @@
 
 function get_db() {
     $servername = "localhost";
-    $username = "";
+    $username = "root";
     $password = "";
-    $dbname = "";
+    $dbname = "videotheque";
 
     // Create connection
     $conn = new mysqli($servername, $username, $password, $dbname);

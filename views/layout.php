@@ -15,7 +15,7 @@
 <?php
 $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 if ('/index.php' != $uri) {
-    echo '<a href="/index.php">Retour au listing</a>';
+    echo '<a href="/videotheque/index.php">Retour au listing</a>';
 }
 ?>
         </div>

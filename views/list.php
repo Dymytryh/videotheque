@@ -16,7 +16,7 @@
             <th scope="row"><?= $film['titre'] ?></th>
             <td><?= $film['auteur'] ?></td>
             <td>
-                <a href="index.php/show?id=<?= $film['id'] ?>">
+                <a href="/videotheque/index.php/show?id=<?= $film['id'] ?>">
                     Voir
                 </a>
             </td>
