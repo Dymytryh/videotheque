@@ -4,8 +4,8 @@
 <!-- XXX Tableau affichant le détail du film
      XXX Bouton permettant d'éditer un film
 -->
-
-<h1><?php echo $film['titre'] ?></h1>
+<?php foreach ($film as $film): ?>
+<h1><?= $film['titre'] ?></h1>
 <table class="table">
     <thead>
         <tr>
@@ -20,16 +20,17 @@
         
         <tr>
             <th scope="row"><?= $film['titre'] ?></th>
-            <td><?php echo $film['auteur'] ?></td>
-            <td><?php echo $film['date_sortie'] ?></td>
-            <td><?php echo $film['3d'] ?></td>
-            <td><?php echo $film['prix'] ?></td>
+            <td><?= $film['auteur'] ?></td>
+            <td><?= $film['date_sortie'] ?></td>
+            <td><?= $film['3d'] ?></td>
+            <td><?= $film['prix'] ?></td>
         </tr>
        
     </tbody>
 </table>
 
 <a  href="/videotheque/index.php/edit?id=<?= $film['id'] ?>"><button>Editer</button></a>
+ <?php endforeach; ?>
 
 <?php $content = ob_get_clean() ?>
 
