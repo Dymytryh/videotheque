@@ -21,10 +21,9 @@ function get_film_by_id($id) {
 function set_film($id, $values) {
     //XXX UPDATE d'un film
     $conn = get_db();
-    $sql = "UPDATE film SET".$values."  WHERE id = ".$id;
-    $film = $conn->query($sql);
+    $sql = "UPDATE film SET ".$values."  WHERE id = ".$id;
+    $conn->query($sql);
     close_db($conn);
-    return $film;
 }
 
 function add_film($values) {
@@ -39,8 +38,6 @@ function add_film($values) {
 function delete_film_by_id($id) {
     //XXX DELETE d'un film
     $conn = get_db();
-    $sql = "DELETE film WHERE id = ".$id;
-    $film = $conn->query($sql);
+    $sql = "DELETE from film WHERE id = ".$id;
     close_db($conn);
-    return $film;
 }

@@ -7,7 +7,8 @@
 <?php foreach ($film as $film): ?>
 	
 <h1><?= $film['titre'] ?></h1>
-<form form="/videotheque/index.php" method="get" id="form1">
+
+    <form method="post" id="form1">
 	<div>Titre</div>
     <input name="titre" value=<?= $film['titre'] ?>></input>
             
@@ -21,15 +22,17 @@
             
     <div>Prix</div>
     <input name="prix" value=<?= $film['prix'] ?>></input>
-</form>
+
     
    
 </br>
-<button type="submit" form="form1" value="edit">Editer</button>
 
-<button type="submit" form="form1" value="delete">Supprimer</button>
+
+<input type="submit" name = "edit" form="form1" value="Editer"></input>
+
+<input type="submit" name ="delete" form="form1" value="Supprimer"></input>
  <?php endforeach; ?>
-
+</form>
 <?php $content = ob_get_clean() ?>
 
 <?php include 'layout.php' ?>

@@ -6,12 +6,24 @@
 
 <h1>Ajouter des films</h1>
             <label> Fichier</label></br>
-<a  href=""><button>Choississer un fichier</button></a></br></br>
+<form method="post" action="/videotheque/index.php" enctype="multipart/form-data">
 
-<a  href=""><button>Enregistrer</button></a>
+	<input type="file" name="fichier"></input>
+	
+	</br>
+	</br>
+
+	<input type="submit" value="Enregistrer" name="submit"></input>
+
+
+</form>
+
+<?php include 'preview.php' ?>
 
 
 
 <?php $content = ob_get_clean() ?>
 
+
 <?php include 'layout.php' ?>
+
